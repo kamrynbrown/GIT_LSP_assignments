@@ -37,16 +37,16 @@ public class Driver {
         System.out.println("Does Set 1 contain 10? " + set1.contains(10));
 
         // Perform set operations
-        set1.union(set2);
+        set1.union(set2); //set 1 altered
         System.out.println("Union of Set 1 and Set 2: " + set1);
 
-        set1.intersect(set2);
+        set1.intersect(set2); //set 1 altered
         System.out.println("Intersection of Set 1 and Set 2: " + set1);
 
-        set1.diff(set2);
+        set1.diff(set2); //set 1 altered
         System.out.println("Difference of Set 1 and Set 2: " + set1);
 
-        set1.complement(set2);
+        set1.complement(set2); //set 1 altered
         System.out.println("Complement of Set 1 with respect to Set 2: " + set1);
 
         // Clear the set and test again

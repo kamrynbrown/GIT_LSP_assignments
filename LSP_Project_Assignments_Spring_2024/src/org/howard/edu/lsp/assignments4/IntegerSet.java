@@ -7,10 +7,10 @@ import java.util.List;
  * for manipulating and performing calculations with sets.
  */
 public class IntegerSet  {
-  /**
-   * Store the set elements in an ArrayList
-   */
-	  private List<Integer> set = new ArrayList<Integer>();
+	/**
+	 * Store the set elements in an ArrayList
+	 */
+	private List<Integer> set = new ArrayList<Integer>();
 	
 	  /**
 	   * Constructs an empty IntegerSet.
@@ -73,7 +73,7 @@ public class IntegerSet  {
 	   */
 	  public int largest() throws IntegerSetException {
 		 if(set.isEmpty()){
-	         System.out.println("set is eympty");
+			 throw new IntegerSetException("set is empty");
 	     }
 	     int max=set.get(0);
 	     for (int i=1; i<set.size();i++){
@@ -91,7 +91,7 @@ public class IntegerSet  {
 	   */
 	  public int smallest() throws IntegerSetException  {
 		 if(set.isEmpty()){
-			 throw new IntegerSetException("set is eympty");
+			 throw new IntegerSetException("set is empty");
 	     }
 	     int min=set.get(0);
 	     for (int i=1; i<set.size();i++){
