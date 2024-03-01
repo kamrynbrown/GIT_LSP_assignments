@@ -48,5 +48,10 @@ public class Driver {
 
         set1.complement(set2);
         System.out.println("Complement of Set 1 with respect to Set 2: " + set1);
+
+        // Clear the set and test again
+        set1.clear();
+        System.out.println("After clearing, Set 1: " + set1);
+        System.out.println("Is Set 1 empty now? " + set1.isEmpty());
     }
 }
