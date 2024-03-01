@@ -1,4 +1,4 @@
-package org.howard.edu.lsp.assignments4;
+package org.howard.edu.lsp.assignment4;
 
 public class IntegerSetException extends RuntimeException {
     private static final long serialVersionUID = 1L;

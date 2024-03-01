@@ -1,4 +1,4 @@
-package org.howard.edu.lsp.assignments4;
+package org.howard.edu.lsp.assignment4;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -71,7 +71,7 @@ public class IntegerSet  {
 	   * @return The largest item in the set
 	   * @throws IntegerSetException if the set is empty
 	   */
-	  public int largest() throws IntegerSetException {
+	  public int largest() {
 		 if(set.isEmpty()){
 			 throw new IntegerSetException("set is empty");
 	     }
@@ -89,7 +89,7 @@ public class IntegerSet  {
 	   * @return The smallest item in the set
 	   * @throws IntegerSetException if the set is empty
 	   */
-	  public int smallest() throws IntegerSetException  {
+	  public int smallest() {
 		 if(set.isEmpty()){
 			 throw new IntegerSetException("set is empty");
 	     }
